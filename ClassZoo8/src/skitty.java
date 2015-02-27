@@ -1,7 +1,13 @@
-import java.awt.*;
 import java.applet.*;
+import java.awt.*;
 
-public class skitty extends Applet{
+import javax.swing.*;
+
+
+
+
+
+public class skitty extends Applet {
 	
 	public void paint(Graphics g)
 	{
@@ -10,6 +16,9 @@ public class skitty extends Applet{
 	
 	}
 
+	    
+	
+	    
 	private void drawAnimal(Graphics g)
 	{
 		int a = 252 ;int b = 230 ; int c = 201 ;
@@ -111,5 +120,15 @@ public class skitty extends Applet{
 		g.fillRect(200, 0, 1000 ,350 );
 		
 		
-	}
+
+		
+		
+		}
+	
 }
+		
+		
+	
+
+
+
